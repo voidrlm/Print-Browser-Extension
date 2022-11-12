@@ -1,6 +1,14 @@
 {
-  "manifest_version": 2,
   "name": "Print",
+  "description": "Print by voidrlm",
   "version": "1",
-  "description": "Print by voidrlm"
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
 }
